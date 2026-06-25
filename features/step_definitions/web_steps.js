@@ -32,8 +32,6 @@ async function getField(fieldName) {
     return driver.findElement(By.id(elementId));
 }
 
-
-
 // Helper function to get a button by its ID
 async function getButton(buttonText) {
     const buttonId = buttonText.toLowerCase() + '-btn';
